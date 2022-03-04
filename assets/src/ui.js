@@ -53,7 +53,6 @@ const EXPENSES_LEAD_GEN_UI = (() => {
     },
     rotatePicture() {
       let index = getIndex();
-      const id = document.querySelector("#changable-images-track").firstElementChild;
       const p = document.querySelector(`[data-photo-index="${index}"]`);
       HTMLCOMPONENTS.photoBox.style.left = -p.offsetWidth * index  + "px";
       if(index >= 2) {
@@ -77,7 +76,6 @@ const EXPENSES_LEAD_GEN_UI = (() => {
     removePhoto: () => {
       const index = document.querySelector("#changable-images-track").firstElementChild;
       const img = index.querySelector('.person-img').getAttribute("src");
-      console.log(img);
       index.remove();
       EXPENSES_LEAD_GEN_UI.populateImg(img, getChildNodeCount());
     }
