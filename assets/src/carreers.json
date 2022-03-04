@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Software Engineer",
+    "photo": "/assets/img/man-grey-hair-middle age.png"
+  },
+  {
+    "name": "Teacher",
+    "photo": "/assets/img/man-phone-tattoo.png"
+  },
+  {
+    "name": "Model",
+    "photo": "/assets/img/woman-model.png"
+  },
+  {
+    "name": "US Expat",
+    "photo": "/assets/img/woman-young .png"
+  },
+  {
+    "name": "Actor",
+    "photo": "/assets/img/man-phone-tattoo.png"
+  },
+  {
+    "name": "Artist",
+    "photo": "/assets/img/woman-model.png"
+  }
+]
